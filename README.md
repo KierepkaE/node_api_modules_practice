@@ -5,6 +5,8 @@
 - clone this repo
 - run `npm install -g nodemon`
 - in the console: `nodemon app.js`
+- to see users names call `showUsers()` function in app.js
+- to see users object call `showUserObj()` function in app.js
 
 #### Tech:
 

@@ -9,5 +9,10 @@ module.exports = {
     const names = users.map(user => user.name)
     console.log(`Users:`)
     names.forEach(name => console.log(name))
+  },
+  showUserObj(id) {
+    console.log("User you are looking for is: ")
+    const user = users.find(user => user.id === id)
+    console.log(user)
   }
 }
