@@ -14,5 +14,9 @@ module.exports = {
     console.log("User you are looking for is: ")
     const user = users.find(user => user.id === id)
     console.log(user)
+  },
+  userListLength() {
+    console.log('Length of users list: ')
+    console.log(users.length)
   }
 }
